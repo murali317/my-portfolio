@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- bootstrap css -->
+    <script src="https://kit.fontawesome.com/17c6c736ec.js" crossorigin="anonymous"></script>
+    <!--above link is for fontawesome icons-->
+    <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <section class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="fashion-logo.jpg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">POLICY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONDITION</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">DOWNLOAD</a>
+                        </li>
+                    </ul>
+                    <ul class="right-menu ms-auto">
+                        <li><i class="fab fa-facebook"></i></li>
+                        <li><i class="fab fa-instagram"></i></li>
+                        <li><i class="fab fa-pinterest"></i></li>
+                        <li>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Search here"
+                                    aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <span class="input-group-text"><i class="fa fa-search"></i></span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="banner">
+            <div class="banner-img">
+                <img src="banner.jpg">
+            </div>
+            <div class="banner-title">
+                <h1>FASHION'S STORY</h1>
+                <h1>WOMEN'S LIFESTYLE</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="fashion-trends">
+        <div class="container">
+            <!--we used container div here so that the para and h1 would be with some margin-left and margin-right-->
+            <div class="fashion-box">
+                <div class="title-style text-center">
+                    <h1>FASHION TRENDS</h1>
+                </div>
+                <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea dolore perspiciatis
+                    culpa ipsa illum
+                    officia, tenetur provident, nemo consequuntur aut cumque voluptatum! Non, nesciunt fugit!
+                    Repudiandae
+                    beatae, doloremque dolor expedita enim perferendis cupiditate commodi excepturi eos quis, iure quod
+                    necessitatibus tempora molestias a saepe quam? Fuga soluta illum voluptas quisquam?</p>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="trending-img">
+                        <img src="trend-1.jpg">
+                        <button class="btn-buy">Buy Now</button>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="trending-img">
+                        <img src="trend-2.jpg">
+                        <button class="btn-buy">Buy Now</button>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="trending-img">
+                        <img src="trend-3.jpg">
+                        <button class="btn-buy">Buy Now</button>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="offer">
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <img src=" exclusive.jpeg" alt="">
+            </div>
+            <div class="col-md-6">
+                <div class="subscribe">
+                    <h1>FUNSHION EXCLUSIVE</h1>
+                    <p>Don't subscribe to my channel cause I dont even have one! Hehe..... But I'll show you very good
+                        products here and I assure you that you would love them</p>
+                    <a href="#">Subscribe Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fashion-blog">
+        <div class="title-style text-center">
+            <h1>OUR FASHION BLOG</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="blog-img">
+                        <!--its better to create another div in each col-->
+                        <img src="blog-1.jpg">
+                        <h5>New Style 50% off</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="blog-img">
+                        <img src="blog-2.jpg">
+                        <h5>Buy 1 Get 1 Free</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="blog-img">
+                        <img src="blog-3.jpg">
+                        <h5>New Jewellery Collection</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- fashion brands -->
+    <section class="fashion-brands">
+        <div class="title-style text-center">
+            <h1>OUR FASHION BRANDS</h1>
+        </div>
+        <div class="container">
+            <div class="row text-center">
+                <!--this is to make the p tag to come in center with the above img. and we can give it seperatedly to each col also-->
+                <div class="col-md-3">
+                    <div class="brand-logo">
+                        <img src="brand1.png" alt="">
+                    </div>
+                    <p>EXCLUSIVE OFFERS</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="brand-logo">
+                        <img src="brand2.png" alt="">
+                    </div>
+                    <p>MIN. 40% OFF</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="brand-logo">
+                        <img src="brand3.png" alt="">
+                    </div>
+                    <p>FREE DELIVERY</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="brand-logo">
+                        <img src="brand4.png" alt="">
+                    </div>
+                    <p>UPTO 50% OFF</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="payments">
+                        <h5>PAYMENT GATEWAYS</h5>
+                        <img src="payment.png">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="insta-img">
+                        <h5>INSTAGRAM PICS</h5>
+                        <img src="insta1.jpg">
+                        <img src="insta2.jpg">
+                        <img src="insta3.jpg">
+                        <img src="insta4.jpg">
+                        <img src="insta5.jpg">
+                        <img src="insta6.jpg">
+                        <img src="insta7.jpg">
+                        <img src="insta8.jpg">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="app-download">
+                        <h5>DOWNLOAD MOBILE APP</h5>
+                        <img src="play-store.png">
+                        <img src="app-store.png">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-8">
+                        <p style="float: left;" class="copyright">DESIGNED WITH <i class="fas fa-heart"></i> BY MURALI
+                            KRISHNA</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-icons">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-linkedin"></i>
+                            <i class="fab fa-github"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- bootstrap bundle with popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

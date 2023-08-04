@@ -1,0 +1,300 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    background: rgb(106, 52, 168);
+}
+
+.navbar {
+    padding-top: 20px !important;
+}
+
+.nav-item {
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 12px !important;
+    padding-bottom: 5px !important;
+}
+
+.navbar-brand img {
+    width: 115px;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.5, 1.5);
+}
+
+.fa-bars {
+    font-size: 40px;
+    color: white;
+}
+
+.active-home {
+    border-bottom: 2px solid salmon;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid salmon;
+}
+
+.banner {
+    margin-top: 8%;
+    color: white;
+}
+
+.banner h1 {
+    margin: 80px 0 50px;
+    font-weight: 600;
+    /*this is to make it look some less bold other than bold*/
+    font-size: 50px;
+}
+
+.banner img {
+    max-height: 500px;
+    /*px is constant ,it wont shrink with shrinking of window. But % shrinks with shrinking of window and not constant.*/
+}
+
+.banner a {
+    color: white;
+    width: 150px;
+    margin-top: 60px !important;
+    border: 2px solid white;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    /*margin-top didnt work without this line.Donno why*/
+}
+
+.banner a:hover {
+    color: cyan !important;
+}
+
+.join-btn {
+    color: white !important;
+    background-color: black !important;
+    border: 0 !important;
+}
+
+/* ---------service section----------- */
+
+.service {
+    margin-top: 70px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+
+.service-box {
+    margin-bottom: 30px;
+    padding: 35px;
+    cursor: pointer;
+    margin-left: 30px;
+    /*these two lines are to ensure the space at left end adn right end of the service-boxes*/
+    margin-right: 30px;
+}
+
+.service-box img {
+    width: 70px;
+    margin-bottom: 30px;
+}
+
+.service-box h6 {
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.service-box:hover {
+    background-color: rgb(98, 81, 192);
+    border-radius: 10px;
+}
+
+
+.service-box:hover h6 {
+    color: white;
+}
+
+.service-box:hover p {
+    color: white;
+}
+
+/* --------feature & explore--------- */
+
+.feature {
+    margin: 180px 0px;
+}
+
+.feature img {
+    max-width: 77%;
+    cursor: pointer;
+}
+
+.feature h2 {
+    line-height: 50px;
+    margin-top: 70px;
+    font-weight: bold;
+}
+
+.feature p,
+.explore p {
+    margin: 50px 0px;
+    font-size: 19px
+}
+
+.feature a {
+    background-color: rgb(106, 52, 168);
+    color: white;
+    width: -120px;
+    padding: 12px 20px;
+    border-radius: 7px;
+    display: block;
+    width: 195px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.explore a {
+    background-color: rgb(106, 52, 168);
+    color: white;
+    width: -120px;
+    padding: 12px 20px;
+    border-radius: 7px;
+    display: block;
+    width: 195px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+.feature a:hover,
+.explore a:hover {
+    box-shadow: 0 5px 5px 0 rgb(157, 238, 238);
+}
+
+.explore h2 {
+    margin-top: 40px;
+}
+
+.review {
+    margin: 100px 0px;
+}
+
+.carousel-item img {
+    width: 150px;
+    /* border-radius: 50%; */
+}
+
+.carousel-item {
+    text-align: center;
+    height: 430px;
+}
+
+.carousel-caption h3 {
+    margin-bottom: 40px;
+    border: 1px solid greenyellow;
+    background-color: goldenrod;
+    font-size: 29px;
+    padding: 8px 0px;
+}
+
+.carousel-caption {
+    z-index: -1;
+    box-shadow: 0 0 15px 1px rgba(166, 163, 223, 0.5);
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.carousel-caption h5 {
+    margin-top: 55px;
+    font-weight: bold;
+    color: #000 !important;
+}
+
+.carousel-caption small {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color: #000 !important;
+}
+
+.carousel-caption p {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+    /*because of this, the content correctly fit the box*/
+}
+
+.carousel-indicators li {
+    background-color: blueviolet !important;
+}
+
+@media only screen and (max-width:800px) {
+    .carousel-item {
+        height: 520px;
+    }
+
+    .carousel-caption {
+        margin: 0 15px 10px 10px;
+        left: 0px;
+        right: 0px;
+    }
+}
+
+.footer {
+    background-color: blueviolet;
+}
+
+.footer h2 {
+    margin-top: -40px;
+    padding: 40px 0;
+    color: white;
+}
+
+.footer input {
+    display: block;
+    width: 50%;
+    text-align: center;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    padding: 8px;
+    border: 0;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 17px;
+    border-bottom: 1px solid #fff;
+}
+
+.footer button {
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    padding: 7px 9px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+::placeholder {
+    color: white;
+}

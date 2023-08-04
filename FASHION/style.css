@@ -1,0 +1,306 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.right-menu li {
+    /* margin-top: 29px; */
+    padding-top: 30px;
+    display: inline-block;
+}
+
+.right-menu .fab {
+    margin-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.navbar {
+    padding: 0 20px;
+    background-color: aliceblue;
+}
+
+.navbar-toggler {
+    font-size: 25px;
+    border: none;
+    outline: none;
+    margin: 10px;
+}
+
+.navbar-brand img {
+    /*but if we remove img,img will be big only*/
+    width: 160px !important;
+    /* font-size: 20px; */
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    top: 25px;
+    transform: translate(-50%, 0);
+    /*here 50% made it move more left than 50px */
+}
+
+.banner {
+    position: relative;
+}
+
+.banner-img {
+    width: 60%;
+    margin: 80px 120px;
+}
+
+.banner-img img {
+    width: 100%;
+    margin-bottom: -80px;
+    /*observe this line.to fit any small img or anything, why dont we decrease its margin*/
+}
+
+.banner-title {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+}
+
+.banner-title h1 {
+    color: #fff;
+    background-color: rgba(39, 35, 35, 0.8);
+    padding: 3px 10px;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.fashion-trends {
+    padding: 100px 0;
+}
+
+.fashion-box {
+    margin: 80px 0;
+}
+
+.title-style h1 {
+    padding: 40px 0px;
+    /*bcause of this,the h1 is in center in the box*/
+}
+
+/* .title-style p {
+    margin-top: 60px !important;
+} */
+
+.title-style {
+    margin: 0 auto 80px;
+    height: 120px;
+    width: 60%;
+    /* max-width: 700px; */
+    /* position: relative; */
+    /*donno for what these 2 lines are!!*/
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 50, 0.4);
+    transition: width 4s;
+    background-color: aqua;
+}
+
+/* .title-style:hover ::before {
+    content: '';
+    width: 260px;
+    height: 7px;
+    background-color: red;
+    border: 2px solid green;
+    position: absolute;
+    top: 123%;
+} */
+
+.title-style:hover ::after {
+    content: '';
+    width: 260px;
+    height: 7px;
+    background-color: red;
+    border: 2px solid green;
+    position: absolute;
+    bottom: -10px;
+    left: 170px;
+    z-index: -1;
+}
+
+.trending-img {
+    position: relative;
+    /* margin-bottom: 15px; */
+}
+
+.trending-img img {
+    width: 100%;
+}
+
+.trending-img .btn-buy {
+    position: absolute;
+    left: 30%;
+    bottom: 0;
+    /* transform: translate(-50%, 0); but i decided to remove this*/
+    /*using left: 40% only other than this also has same effect.but donno y creator done this way.*/
+    width: 150px;
+    padding: 8px 0;
+    border: 0;
+    transition: .7s;
+    opacity: 0;
+}
+
+.trending-img:hover .btn-buy {
+    transform: translateY(50%);
+    bottom: 50%;
+    background-color: yellowgreen;
+    opacity: 1;
+    z-index: 1;
+    /*button was dim black so that's why!*/
+}
+
+.overlay {
+    position: absolute;
+    height: 0;
+    width: 100%;
+    background-color: #333;
+    top: 0;
+    /*if i give bottom here, the shadow will go from bottom to top*/
+    opacity: .6;
+    transition: .5s;
+}
+
+.trending-img:hover .overlay {
+    height: 100%;
+}
+
+/* ------offer--------- */
+.offer {
+    background: url(fashion.jpg) no-repeat center center;
+    margin: initial !important;
+}
+
+.row {
+    margin: initial;
+    /* HORIZONTAL SCROLLING IS REMOVED BY THIS LINE AND THIS CLASS */
+}
+
+.subscribe {
+    margin-top: 80px;
+    padding: 60px;
+    max-width: 500px;
+    background-color: aliceblue;
+    opacity: .8;
+}
+
+.subscribe a {
+    background-color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+}
+
+.offer img {
+    width: 300px;
+    height: 400px;
+    margin: -100px;
+    /*observe this line very carefully and by removing - also*/
+    margin-top: 150px;
+}
+
+.fashion-blog {
+    margin-top: 240px;
+    margin-bottom: 110px;
+}
+
+.blog-img {
+    margin: 50px 0;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    cursor: pointer;
+    /*i dont understand how hell this line worked like that*/
+}
+
+.blog-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.blog-img h5 {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.title-style {
+    margin: 40px auto;
+}
+
+/*------------- fashion brands---------- */
+.fashion-brands {
+    margin-bottom: 140px;
+}
+
+.brand-logo {
+    height: 200px;
+    width: 200px;
+    margin: 50px auto 30px;
+    /*this auto is to center align horizontally, i.e, center from the right*/
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 40px 0px rgb(124, 116, 116);
+    cursor: pointer;
+}
+
+.brand-logo img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.fashion-brands p {
+    margin: 40px 0;
+    font-weight: bold;
+}
+
+/* ----footer------ */
+.footer {
+    margin-top: 100px;
+    background-color: aliceblue;
+}
+
+.footer h5 {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.payments,
+.insta-img,
+.app-download {
+    margin: 50px auto;
+}
+
+.payments img {
+    width: 300px;
+    cursor: pointer;
+}
+
+.insta-img img {
+    width: 75px;
+    /*so that to fit the adjacent widths and cols*/
+    padding: 5px;
+    cursor: pointer;
+}
+
+.app-download img {
+    width: 60%;
+    cursor: pointer;
+}
+
+.footer h5::before {
+    content: "";
+    width: 70px;
+    height: 3px;
+    background-color: blue;
+    position: absolute;
+    top: 25px;
+}
+
+.footer-icons .fab {
+    margin: 0 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
