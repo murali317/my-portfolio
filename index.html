@@ -145,12 +145,33 @@
 					<li>muralivicky317@gmail.com</li>
 					<li>+91 9353656715</li>
 					<li>Andhra Pradesh, India</li>
-					<li><button><a href="https://drive.google.com/file/d/1vFHKgu2_NoVEEWj6W-7a_gBVjg0wt9au/view?usp=drive_link" target="_blank" download>Download my resume</a></button></li>
+					<li><button><a href="https://drive.google.com/file/d/1COxNjbZQoGMI0IfDAj826Xx4iM7VHMTQ/view?usp=drive_link" target="_blank" download>Download my resume</a></button></li>
 				</ul>
 			</div>
-			<div class="col">
+			<!-- <div class="col">
 				<img src="images/contact-img.webp" alt="">
-			</div>
+			</div> -->
+			 <div class="col">
+				<form id="contactForm">
+					<div class="mb-3">
+					<label for="name" class="form-label">Name</label>
+					<input type="text" class="form-control" id="name" name="name" required>
+					</div>
+
+					<div class="mb-3">
+					<label for="email" class="form-label">Email</label>
+					<input type="email" class="form-control" id="email" name="email" required>
+					</div>
+
+					<div class="mb-3">
+					<label for="message" class="form-label">Message</label>
+					<textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+					</div>
+
+					<button type="submit" class="btn btn-primary">Send Message</button>
+					<p id="formStatus" style="margin-top:10px;"></p>
+				</form>
+    		</div>
 		</div>
 	</div>
 
