@@ -3,7 +3,7 @@
 Welcome to my portfolio repository! This project is a showcase of my work, skills, and projects as a **Software Engineer**.  
 
 ## 🚀 Live Demo  
-👉 [View Portfolio](https://your-portfolio-link.com)  
+👉 [View Portfolio](https://krissh-portfolio.netlify.app/)  
 
 ---
 
